@@ -76,3 +76,34 @@ section img {
     width: 100%;
     height: auto;
 }
+.chat-bot-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000;
+    display: none; /* Hide by default */
+}
+
+.chat-bot {
+    width: 350px;
+    height: 430px;
+}
+
+.chatbot-toggle {
+    position: fixed;
+    right: 20px;
+    bottom: 460px;
+    z-index: 1000;
+    background-color: #080831;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.chatbot-toggle:hover {
+    background-color: #0d0735;
+}
